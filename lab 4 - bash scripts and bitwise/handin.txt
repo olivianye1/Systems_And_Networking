@@ -1,0 +1,242 @@
+#Olivia Nye and Jacob Waxman 
+#Systems and Networking 
+#Lab 4 Part 1 - Handin.txt
+
+Olivias-MacBook-Pro-2:systems_and_networking olivianye$ ./script1.sh 6 7 results.txt /users/olivianye/Documents
+
+hello world
+The second argument: 7
+Second argument (7) is greater than first (6).
+results.txt exists.
+results.txt exists and is a regular file.
+/users/olivianye/Documents exists.
+/users/olivianye/Documents exists but is not a regular file (it is a directory).
+/users/olivianye/Documents/2018-19 1432 broadway signed (1).pdf
+/users/olivianye/Documents/Ben_Gertz__Olivia_Nye__Internet Concept Map.pdf
+/users/olivianye/Documents/Nye.Olivia_resume.pdf
+/users/olivianye/Documents/Obscure Model Puts a Price on Good Health—and Drives Down Drug Costs - WSJ.pdf
+/users/olivianye/Documents/Psychology Checklist nye.pdf
+/users/olivianye/Documents/Public_Health_Policy_Midterm_Exam.pdf
+/users/olivianye/Documents/The $6 Million Drug Claim - The New York Times.pdf
+/users/olivianye/Documents/Vaping Moves From the Bathroom to the Classroom - WSJ.pdf
+/users/olivianye/Documents/roster.pdf
+/users/olivianye/Documents/schedule_fall2019.pdf
+
+
+Olivias-MacBook-Pro-2:systems_and_networking olivianye$ ./script1.sh 18 8 myResult.txt /users/olivianye/Downloads
+
+hello world
+The second argument: 8
+Second argument (8) is less than the first (18).
+myResult.txt does not exist!
+/users/olivianye/Downloads exists.
+/users/olivianye/Downloads exists but is not a regular file (it is a directory).
+/users/olivianye/Downloads/#3 (1).pdf
+/users/olivianye/Downloads/#3.pdf
+/users/olivianye/Downloads/#4.pdf
+/users/olivianye/Downloads/03_TheLimitTheorem (1).pdf
+/users/olivianye/Downloads/03_TheLimitTheorem.pdf
+/users/olivianye/Downloads/08_DivideAndConquer_Recurrences.pdf
+/users/olivianye/Downloads/2018-19 1432 broadway signed (1).pdf
+/users/olivianye/Downloads/2018-19 1432 broadway signed.pdf
+/users/olivianye/Downloads/2200_Syllabus_Fall_19 (1).pdf
+/users/olivianye/Downloads/2200_Syllabus_Fall_19 (10).pdf
+/users/olivianye/Downloads/2200_Syllabus_Fall_19 (11).pdf
+/users/olivianye/Downloads/2200_Syllabus_Fall_19 (12).pdf
+/users/olivianye/Downloads/2200_Syllabus_Fall_19 (13).pdf
+/users/olivianye/Downloads/2200_Syllabus_Fall_19 (14).pdf
+/users/olivianye/Downloads/2200_Syllabus_Fall_19 (2).pdf
+/users/olivianye/Downloads/2200_Syllabus_Fall_19 (3).pdf
+/users/olivianye/Downloads/2200_Syllabus_Fall_19 (4).pdf
+/users/olivianye/Downloads/2200_Syllabus_Fall_19 (5).pdf
+/users/olivianye/Downloads/2200_Syllabus_Fall_19 (6).pdf
+/users/olivianye/Downloads/2200_Syllabus_Fall_19 (7).pdf
+/users/olivianye/Downloads/2200_Syllabus_Fall_19 (8).pdf
+/users/olivianye/Downloads/2200_Syllabus_Fall_19 (9).pdf
+/users/olivianye/Downloads/2200_Syllabus_Fall_19.pdf
+/users/olivianye/Downloads/2300_Syllabus_Spring_20_Maus (1).pdf
+/users/olivianye/Downloads/2300_Syllabus_Spring_20_Maus (2).pdf
+/users/olivianye/Downloads/2300_Syllabus_Spring_20_Maus (3).pdf
+/users/olivianye/Downloads/2300_Syllabus_Spring_20_Maus.pdf
+/users/olivianye/Downloads/301609243632.pdf
+/users/olivianye/Downloads/9780203945919_googlepreview.pdf
+/users/olivianye/Downloads/AI Presentation.pdf
+/users/olivianye/Downloads/Animal Behavior Syllabus F'19 (1).pdf
+/users/olivianye/Downloads/Animal Behavior Syllabus F'19 (10).pdf
+/users/olivianye/Downloads/Animal Behavior Syllabus F'19 (2).pdf
+/users/olivianye/Downloads/Animal Behavior Syllabus F'19 (3).pdf
+/users/olivianye/Downloads/Animal Behavior Syllabus F'19 (4).pdf
+/users/olivianye/Downloads/Animal Behavior Syllabus F'19 (5).pdf
+/users/olivianye/Downloads/Animal Behavior Syllabus F'19 (6).pdf
+/users/olivianye/Downloads/Animal Behavior Syllabus F'19 (7).pdf
+/users/olivianye/Downloads/Animal Behavior Syllabus F'19 (8).pdf
+/users/olivianye/Downloads/Animal Behavior Syllabus F'19 (9).pdf
+/users/olivianye/Downloads/Animal Behavior Syllabus F'19.pdf
+/users/olivianye/Downloads/Apr 11, Doc 1 (1).pdf
+/users/olivianye/Downloads/Apr 11, Doc 1 (2).pdf
+/users/olivianye/Downloads/Apr 11, Doc 1.pdf
+/users/olivianye/Downloads/Assignment 5.pdf
+/users/olivianye/Downloads/Baron Psychologys Hubris.pdf
+/users/olivianye/Downloads/Baron.Cohen Autism Neurodiversity Concept.pdf
+/users/olivianye/Downloads/Behavior Observation #1 Write Up.pdf
+/users/olivianye/Downloads/Behavior Observation #2.pdf
+/users/olivianye/Downloads/Behavior Observation #3.pdf
+/users/olivianye/Downloads/Behavior Observations instructions Animal Behavior F'19 (1).pdf
+/users/olivianye/Downloads/Behavior Observations instructions Animal Behavior F'19 (2).pdf
+/users/olivianye/Downloads/Behavior Observations instructions Animal Behavior F'19 (3).pdf
+/users/olivianye/Downloads/Behavior Observations instructions Animal Behavior F'19 (4).pdf
+/users/olivianye/Downloads/Behavior Observations instructions Animal Behavior F'19.pdf
+/users/olivianye/Downloads/Ben_Gertz__Olivia_Nye__Internet Concept Map.pdf
+/users/olivianye/Downloads/Benefits Guide - 2019.pdf
+/users/olivianye/Downloads/Business_Associates_Agreement.pdf
+/users/olivianye/Downloads/C arrays, pointers, and addresses.pdf
+/users/olivianye/Downloads/C++ (1).pdf
+/users/olivianye/Downloads/C++ (2).pdf
+/users/olivianye/Downloads/C++.pdf
+/users/olivianye/Downloads/CBA7055A6AD344DFBB770926DF916A74.pdf
+/users/olivianye/Downloads/CONFIDENTIALITY  BACK TO BASICS (1).pdf
+/users/olivianye/Downloads/CONFIDENTIALITY  BACK TO BASICS.pdf
+/users/olivianye/Downloads/Clicker Qs for final exam review-1.pdf
+/users/olivianye/Downloads/Clicker Questions to use as review for exam 2-1.pdf
+/users/olivianye/Downloads/Clicker Questions to use as review for exam I-2.pdf
+/users/olivianye/Downloads/Conflict and Disease_2019 (1).pdf
+/users/olivianye/Downloads/Conflict and Disease_2019 (2).pdf
+/users/olivianye/Downloads/Conflict and Disease_2019.pdf
+/users/olivianye/Downloads/Devetak1985Vibrationsantlion.pdf
+/users/olivianye/Downloads/Doc - Jan 7 2019 - 12-22 PM.pdf
+/users/olivianye/Downloads/EnterpriseRx-Outpatient-Pharmacy-Fact-Sheet.pdf
+/users/olivianye/Downloads/Ethogram-for-general-behavioural-monitoring-Caralyn-Kemp.pdf
+/users/olivianye/Downloads/Exam 1.pdf
+/users/olivianye/Downloads/Final Exam Study Guide-Univariate 1.pdf
+/users/olivianye/Downloads/Final paper (1).pdf
+/users/olivianye/Downloads/Final paper.pdf
+/users/olivianye/Downloads/FinalStudyGuide.pdf
+/users/olivianye/Downloads/Gawrillow ADHD Creativity.pdf
+/users/olivianye/Downloads/HW1 (1).pdf
+/users/olivianye/Downloads/HW1.pdf
+/users/olivianye/Downloads/HW2 (1).pdf
+/users/olivianye/Downloads/HW2 (2).pdf
+/users/olivianye/Downloads/HW2 (3).pdf
+/users/olivianye/Downloads/HW2.pdf
+/users/olivianye/Downloads/HW3.pdf
+/users/olivianye/Downloads/HW4 (1).pdf
+/users/olivianye/Downloads/HW4.pdf
+/users/olivianye/Downloads/HW5.pdf
+/users/olivianye/Downloads/HW6.pdf
+/users/olivianye/Downloads/HW8.pdf
+/users/olivianye/Downloads/HW9.pdf
+/users/olivianye/Downloads/Informational-Interviewing (1).pdf
+/users/olivianye/Downloads/Informational-Interviewing (2).pdf
+/users/olivianye/Downloads/Informational-Interviewing.pdf
+/users/olivianye/Downloads/Lab1 (1).pdf
+/users/olivianye/Downloads/Lab1 (2).pdf
+/users/olivianye/Downloads/Lab1.pdf
+/users/olivianye/Downloads/Lab2.pdf
+/users/olivianye/Downloads/Lab3 (1).pdf
+/users/olivianye/Downloads/Lab3 (2).pdf
+/users/olivianye/Downloads/Lab4 (1).pdf
+/users/olivianye/Downloads/Major-Minor-Declaration-Form.pdf
+/users/olivianye/Downloads/MidtermStudyGuide.pdf
+/users/olivianye/Downloads/Milestone 1 Draft.pdf
+/users/olivianye/Downloads/Milestone 1 Project Proposal (1).pdf
+/users/olivianye/Downloads/Milestone 1 Project Proposal (2).pdf
+/users/olivianye/Downloads/Milestone 1 Project Proposal.pdf
+/users/olivianye/Downloads/Milestone 3.pdf
+/users/olivianye/Downloads/Milestone 4 Progress Report.pdf
+/users/olivianye/Downloads/NDA.pdf
+/users/olivianye/Downloads/Olivia Nye UnitedHealth.pdf
+/users/olivianye/Downloads/OliviaNye_Transcript.pdf
+/users/olivianye/Downloads/Olivia_Nye_exam1_gradedKJB.pdf
+/users/olivianye/Downloads/PSYC 3130 Syllabus S19 (Appleby)-4.pdf
+/users/olivianye/Downloads/Policy Memo.pdf
+/users/olivianye/Downloads/Psychology Checklist nye.pdf
+/users/olivianye/Downloads/R_Latex_Exam_Doc (1).pdf
+/users/olivianye/Downloads/R_Latex_Exam_Doc (2).pdf
+/users/olivianye/Downloads/R_Latex_Exam_Doc (3).pdf
+/users/olivianye/Downloads/R_Latex_Exam_Doc (4).pdf
+/users/olivianye/Downloads/R_Latex_Exam_Doc.pdf
+/users/olivianye/Downloads/Recommendation_Letter.pdf
+/users/olivianye/Downloads/Report- Project 1 Part 3.pdf
+/users/olivianye/Downloads/Residential Parking Permits.pdf
+/users/olivianye/Downloads/STATA_Latex_Exam_Doc.pdf
+/users/olivianye/Downloads/Splash card - Jan 7 2019 - 12-21 PM.pdf
+/users/olivianye/Downloads/Spring 2020 CRDV 1090 Syllabus-2 (1).pdf
+/users/olivianye/Downloads/Spring 2020 CRDV 1090 Syllabus-2.pdf
+/users/olivianye/Downloads/Spring 2020 Wednesday Course Calendar (1).pdf
+/users/olivianye/Downloads/Spring 2020 Wednesday Course Calendar (2).pdf
+/users/olivianye/Downloads/Spring 2020 Wednesday Course Calendar.pdf
+/users/olivianye/Downloads/TDD.pdf
+/users/olivianye/Downloads/Take Home 2_Olivia  Nye_comments (1).pdf
+/users/olivianye/Downloads/Take Home Assignment #1.pdf
+/users/olivianye/Downloads/TakeHome2_Latex_Exam_Doc.pdf
+/users/olivianye/Downloads/TakeHome_4_R (1).pdf
+/users/olivianye/Downloads/TakeHome_4_R.pdf
+/users/olivianye/Downloads/TechCareerPath_Mike.pdf
+/users/olivianye/Downloads/Trachoma (1).pdf
+/users/olivianye/Downloads/Trachoma.pdf
+/users/olivianye/Downloads/Tulane W-2 - Feb 6 2020 - 12-58 PM.pdf
+/users/olivianye/Downloads/United Health Group Cover Letter.pdf
+/users/olivianye/Downloads/Vaginal Birth CMQCC.pdf
+/users/olivianye/Downloads/Vehicle Registration Form.pdf
+/users/olivianye/Downloads/W-2_Form_2019_OliviaNye.pdf
+/users/olivianye/Downloads/Waters The Americanization of Mental Illness - The New York Times.pdf.pdf
+/users/olivianye/Downloads/Writing Intensive Outline (1).pdf
+/users/olivianye/Downloads/Writing Intensive Outline.pdf
+/users/olivianye/Downloads/absentee_ballot_application.pdf
+/users/olivianye/Downloads/annotated-Results%20and%20Discussion.pdf
+/users/olivianye/Downloads/concept map (1).pdf
+/users/olivianye/Downloads/concept map.pdf
+/users/olivianye/Downloads/dijkstra_stepbystep.pdf
+./script1.sh: line 51: [: too many arguments
+/users/olivianye/Downloads/exam 1 do.pdf
+/users/olivianye/Downloads/exercise (1).pdf
+/users/olivianye/Downloads/exercise (2).pdf
+/users/olivianye/Downloads/exercise.pdf
+/users/olivianye/Downloads/hw 1 pt1 (1).pdf
+/users/olivianye/Downloads/hw 1 pt1.pdf
+/users/olivianye/Downloads/hw1 pt2 (1).pdf
+/users/olivianye/Downloads/hw1 pt2.pdf
+/users/olivianye/Downloads/lab3.pdf
+/users/olivianye/Downloads/lab4.pdf
+/users/olivianye/Downloads/lease addendum_1432 broadway.pdf
+./script1.sh: line 51: [: too many arguments
+/users/olivianye/Downloads/presentation notes.pdf
+/users/olivianye/Downloads/project proposal.pdf
+/users/olivianye/Downloads/project_1 (1).pdf
+/users/olivianye/Downloads/project_1 (2).pdf
+/users/olivianye/Downloads/project_1 (3).pdf
+/users/olivianye/Downloads/project_1.pdf
+/users/olivianye/Downloads/project_2 (1).pdf
+/users/olivianye/Downloads/project_2 (2).pdf
+/users/olivianye/Downloads/project_2 (3).pdf
+/users/olivianye/Downloads/project_2.pdf
+/users/olivianye/Downloads/roster (1).pdf
+/users/olivianye/Downloads/roster (10).pdf
+/users/olivianye/Downloads/roster (11).pdf
+/users/olivianye/Downloads/roster (12).pdf
+/users/olivianye/Downloads/roster (13).pdf
+/users/olivianye/Downloads/roster (14).pdf
+/users/olivianye/Downloads/roster (15).pdf
+/users/olivianye/Downloads/roster (16).pdf
+/users/olivianye/Downloads/roster (17).pdf
+/users/olivianye/Downloads/roster (18).pdf
+/users/olivianye/Downloads/roster (19).pdf
+/users/olivianye/Downloads/roster (2).pdf
+/users/olivianye/Downloads/roster (20).pdf
+/users/olivianye/Downloads/roster (21).pdf
+/users/olivianye/Downloads/roster (22).pdf
+/users/olivianye/Downloads/roster (23).pdf
+/users/olivianye/Downloads/roster (24).pdf
+/users/olivianye/Downloads/roster (3).pdf
+/users/olivianye/Downloads/roster (4).pdf
+/users/olivianye/Downloads/roster (5).pdf
+/users/olivianye/Downloads/roster (6).pdf
+/users/olivianye/Downloads/roster (7).pdf
+/users/olivianye/Downloads/roster (8).pdf
+/users/olivianye/Downloads/roster (9).pdf
+/users/olivianye/Downloads/roster.pdf
+/users/olivianye/Downloads/schedule_fall2019.pdf
+/users/olivianye/Downloads/take home quiz.pdf
+/users/olivianye/Downloads/the-basics-of-ux-design.pdf
+/users/olivianye/Downloads/transcript.pdf
+/users/olivianye/Downloads/transcript_OliviaNye.pdf

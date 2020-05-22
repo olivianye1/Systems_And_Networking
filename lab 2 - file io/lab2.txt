@@ -1,0 +1,23 @@
+Olivia Nye and Jacob Waxman
+Lab 2
+
+Question 1: My prompt is "(base) Olivias-MacBook-Pro-2:~ olivianye$"
+Question 2: The full path to my home directory is /Users/olivianye
+Question 3: The following files and folders are inside my home directory:
+Applications			PycharmProjects
+CmapToolsLogs			capstone
+Desktop				eclipse-workspace
+Documents			lab2.txt
+Downloads			map.ipynb
+IdeaProjects			map2.ipynb
+Library				mapping.ipynb
+Movies				node_modules
+Music				package-lock.json
+Pictures			systems_and_networking
+Public				~$e.Olivia_resume2020.docx
+
+Question 4: The full path to my cmps2300 directory is /Users/olivianye/cmps2300
+Question 5: The command to move my lab2.txt file into my cmps2300 directory is mv ~/lab2.txt ~/cmps2300
+Question 6: * is a dereferencer operator which returns the value pointed by a   variable. & is a referencer operator which returns the address of a variable.
+
+ 

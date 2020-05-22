@@ -1,0 +1,72 @@
+ Olivia Nye and Jacob Waxman 
+ Lab 5
+ Systems and Networking 
+
+1. This computer has 2^2 physical page frames in its physical memory. 
+		We got this by...
+			First calculating the virtual page size from the given offset.
+				offset = log(page_size) / log(2)
+				20 = log(page_size) / log(2)
+				solved ^this equation for page_size. Got 20 (2^20).
+				
+			Then we calculated the number of physical page frames from the given physical 
+			 memory and the now known virtual frame size (the virtual frame size should 
+			 be the same as the virtual page size we just calculated).
+				numPPFrames = physicalMemory / virtualFrameSize 
+				numPPFrames = 2^22 / 2^20 
+				numPPFrames = 2^2
+2a. This system can have 2^12 virtual pages in a virtual address space.
+		We got this by...
+			numVPages = virtualMemory / virtualPageSize
+			numVPages = 2^32 / 2^20
+			numVPages = 2^12
+			
+2b. We already calculated the size of each page in question 1.
+	 It is 2^20 bytes, which can be better expressed as 1048.576 kB. 
+
+3. 
+	1. convert 0012D687 (the whole virtual address after the '0x') from hexadecimal to binary 
+			0000 0000 0001 0010 1101 0110 1000 0111
+	2. take the first 12 bits in this binary address (because the left 12 are the VPN and 
+		the rest are the offset) and isolate them			
+			     VPN					Offset
+			--------------      ------------------------
+			0000 0000 0001 		0010 1101 0110 1000 0111
+	3. convert the VPN from binary to decimal 
+			000000000001 --> 1
+	4. Go to row 01 in the page table and save the PFN in that row. If it is already in binary,
+	    save it as is. If it is in decimal or hexadecimal, convert it to binary before saving it. 
+	5. Prepend that saved PFN to the Offset from the VA. This results in the physical address. 
+			Physical Address = 0x(PFN + OffsetVA)
+		
+ 4. 
+• 0xE12C --> 0x312C
+• 0x3A9D --> 0xAA9D
+• 0xA9D9 --> 0x59D9
+• 0x7001 --> 0xF001
+• 0xACA1 --> 0x5CA1
+
+5. 0x8AB81 is an example of a virtual address that would result in a page fault,
+	 because the 8th row in the physical frame column of the page table is null.
+	 
+6.  As the address space grows larger, the table size should increase. This is because
+	 we will need more pages in order to cover all of the bits in the address space. 
+	 More pages means more entries in the page table.
+
+7. As the page size grows larger, the table size should decrease. This is because that 
+	means that we will need less pages in order to cover all of the bits in the address
+	space. Less pages means less enteries in the page table, which makes the page table
+	smaller. 
+	
+8. We shouldn't just generally use big pages because it is wasteful of space and inefficient.
+	If a process takes less memory than a whole page, we'd still have to allocate that whole
+	page to it, thus wasting memory.
+	
+9. As we increase the percentage of pages that are allocated in each address page, 
+	the amount of free space decreases, but the number of memory access calls 
+	to the page table that would be valid (not cause an error) increases.
+	
+10. The first one is unrealistic because it seems like the page size is kind of too big
+	 for such a small address space.
+	 
+11. When you make the memory size less than the size of the address space, the program errors. 

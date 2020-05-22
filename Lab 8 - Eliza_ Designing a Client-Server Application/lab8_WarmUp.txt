@@ -1,0 +1,32 @@
+Olivia Nye 
+CMPS 2301
+Lab #8 Eliza – Designing a Client-Server Application
+Warmup - text responses
+
+1. The 1st client connection is successful and 
+	allows me to successfully send messages to 
+	the server. The 2nd client successfully 
+	connects, prompts for my messages, but 
+	server appears to have failed in receiving them. 
+	The 3rd, 4th, and 5th client connections 
+	all time out.
+2. Even though the 2nd client successfully connects, 
+	its call appears to be blocked when it tries 
+	sending a message to the server. We later learn that 
+	it was not totally blocked because it is received by
+	the server when the 1st client disconnects. However,
+	if the 2nd client tries to sends any other messages 
+	to the server (after its first message) before the 1st
+	client disconnects, those calls will be blocked and they
+	will never be received by the server. 
+3. When I disconnect the 1st client, the
+   message I attempted to send in the 2nd 
+   client is received by the server. Also, 
+   connection to a 3rd is now successful 
+   (but it now acts like how the 2nd one 
+   did before - prompting for my messages,
+   which will not be received by the server
+   until I disconnect the 2nd client).
+   
+  
+	
